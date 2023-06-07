@@ -14,6 +14,7 @@ pub struct UpdateUser<'info> {
     pub user_kyc_account: Account<'info, UserKycAccount>,
     // admin who has permission create new user. Without admin sign transaction user will never create
     pub admin: Signer<'info>,
+    pub provider: Signer<'info>,
     /// CHECK: this account to verify user kyc account
     pub user: AccountInfo<'info>,
     pub system_program: Program<'info, System>,
