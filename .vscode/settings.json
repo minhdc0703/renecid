@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./programs/renecId/Cargo.toml",
+        "./programs/renecId/Cargo.toml"
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
+}
